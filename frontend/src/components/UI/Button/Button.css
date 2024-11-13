@@ -1,0 +1,58 @@
+/* Reset and base button styles */
+button, a {
+  all: unset; /* Reset all inherited styles */
+  cursor: pointer; /* Change cursor to pointer */
+  display: inline-block; /* Ensure buttons display inline */
+  text-align: center; /* Center the text */
+}
+
+/* Base button styles */
+.btn {
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Consistent padding */
+  font-weight: 500; /* Font weight */
+  font-size: 16px; /* Set a consistent font size */
+  line-height: 1.5; /* Ensure text is vertically centered */
+  margin: 0.5rem; /* Add margin for spacing */
+}
+
+/* Small button styles */
+.btn-small {
+  padding: 5px 10px; /* Reduced padding for smaller buttons */
+  font-size: 14px; /* Reduced font size */
+}
+
+/* Light button styles */
+.btn-light {
+  background: orangered; /* Background color */
+  border: 2px solid transparent; /* Border color */
+  color: #fff; /* Text color */
+}
+
+/* Dark button styles */
+.btn-dark {
+  background: transparent; /* Background color */
+  border: 2px solid #fff; /* Border color */
+  color: #fff; /* Text color */
+}
+
+/* Additional styles for links */
+a {
+  font-size: 16px; /* Consistent font size for links */
+  font-weight: 300; /* Font weight for links */
+  color: #fff; /* Text color */
+  text-decoration: none; /* Remove underline */
+  margin-right: 1rem; /* Space between links */
+  transition: all 0.3s; /* Transition effect */
+}
+
+/* Hover effects */
+a:hover,
+#nav-links-mobile a:hover {
+  color: orangered; /* Change color on hover */
+}
+
+/* Style adjustments for hover states */
+.btn:hover {
+  opacity: 0.9; /* Slightly fade the button on hover */
+}

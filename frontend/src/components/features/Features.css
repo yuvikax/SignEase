@@ -1,0 +1,42 @@
+.title {
+    text-align: center;
+    margin-bottom: 4rem;
+  }
+  
+  .title h2 {
+    font-size: 5rem;
+    font-weight: 5000;
+    line-height: 1.4;
+    text-transform: uppercase;
+    color: #fff;
+    margin: 1.5rem 0;
+  }
+  
+  .title p {
+    width: 50%;
+    min-width: 40rem;
+    margin: 0 auto;
+    color: #ffffffa6;
+  }
+  
+  .features-content {
+    display: flex;
+    justify-content: center;        
+  }
+  
+  .features-left {
+    flex: 1;
+    text-align: center;
+  }
+  .features-left img {
+    width: 65%;
+  }
+  .features-right {
+    flex: 1;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .features-content {
+      flex-direction: column;
+    }
+  }

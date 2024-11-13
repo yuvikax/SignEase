@@ -1,0 +1,51 @@
+section#download {
+    background-color: orangered;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .download h2 {
+    font-size: 5rem;
+    font-weight: 5000;
+    line-height: 1.4;
+    text-transform: uppercase;
+    margin: 1.5rem 0;
+    position: relative;
+    padding-bottom: 1rem;
+  }
+  
+  .download h2::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 10%;
+    height: 1px;
+    background: var(--color-white);
+    transform: translateX(-50%);
+  }
+  .download-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+  }
+  
+  .download-icon {
+    margin: 2rem;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    width: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+
+ 
+  .dtext{
+    color: #fff;
+    font-size:large;
+    font-weight: 900px;
+  }

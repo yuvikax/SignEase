@@ -1,0 +1,77 @@
+ .learning-content {
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #0a1930;
+}
+
+.navbar {
+  z-index: 2; /* Ensure navbar is visible on top */
+  position: relative;
+}
+
+/* Carousel */
+.carousel-container {
+  width: 100%;
+  height: 40vh;
+  overflow: hidden;
+  margin-bottom: 2rem;
+  
+}
+
+.carousel-image {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+ /* .gesture-cards-grid: CSS Grid to create a responsive layout */
+.gesture-cards-grid {
+  margin: 30px;
+  display: grid;
+  border-radius: 10px;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 2.5rem;
+}
+
+/* Styling each card */
+.gesture-card {
+  background-color: #a69cac;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  padding: 1rem;
+  transition: transform 0.3s ease-in-out;
+  color: black;
+}
+
+
+.gesture-image {
+  width: 100%;
+  height: 300px;
+  border-radius: 8px; 
+  filter: none;
+  opacity: 1;  
+  image-rendering: auto;   
+}
+
+.gesture-card-body {
+  margin-top: 1rem;
+  text-align: center;
+  color: black;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1200px) {
+  .gesture-cards-grid {
+    grid-template-columns: repeat(3, 0fr);    /* 2 columns on medium screens */
+    color: black;
+  }
+}
+
+@media (max-width: 768px) {
+  .gesture-cards-grid {
+    grid-template-columns: 0fr; /* 1 column on small screens */
+    color: black;
+  }
+}
+
+
